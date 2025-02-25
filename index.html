@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Roohi!</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 50px;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+        .heart {
+            font-size: 100px;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .button {
+            background-color: white;
+            color: #ff4e50;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 30px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #ff4e50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday, Roohi! 🎂🎉</h1>
+    <p>My dearest Dakshita,</p>
+    <p>Since the past 2 months, every moment with you has been magical. You are the most beautiful part of my life, and I am so lucky to have you. 💖</p>
+    <p>I love you more than anything, more than even you can imagine. You are my heart, my soul, my forever. On your special day, I pray that our love keeps growing stronger and more beautiful every day. May life shower you with happiness, success, and endless love. 💕</p>
+    <p class="heart">❤️</p>
+    <p>Pookie loves you forever! 🥰</p>
+    <button class="button" onclick="playMusic()">Click to Feel the Love 💕</button>
+    <audio id="birthdaySong" src="https://www.myinstants.com/media/sounds/happy-birthday-song.mp3"></audio>
+    <!-- <audio id="loveSong" src="https://ia601507.us.archive.org/17/items/dil-diyan-gallan/Dil%20Diyan%20Gallan.mp3"></audio> -->
+    <script>
+        function playMusic() {
+            document.getElementById('birthdaySong').play();
+            // document.getElementById('loveSong').play();
+        }
+    </script>
+</body>
+</html>
